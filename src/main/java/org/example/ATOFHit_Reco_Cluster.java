@@ -24,7 +24,7 @@ public class ATOFHit_Reco_Cluster extends JFrame {
     private static final double WEDGE_SPACING = 30.0; // mm
     private static final int N_WEDGE = 10; // Number of distinct Z values for wedges
     private static final double Z_THRESHOLD = 280.0; // mm (only for clustering)#150.0 mm tight
-    private static final double PHI_THRESHOLD = 0.3; // rad (only for clustering)#0.1 tight 
+    private static final double PHI_THRESHOLD = 0.1; // rad (only for clustering)#0.1 tight 
     private static final double TIME_THRESHOLD = 1.7; // ns (only for clustering)#1.0 ns tight
 
     private static List<Double> deltaZList = new ArrayList<>();
